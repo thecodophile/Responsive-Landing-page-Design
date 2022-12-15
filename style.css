@@ -71,6 +71,7 @@ ul {
   padding: 12px 24px;
   box-shadow: 0 0 2px var(--secondary-text-color);
   transition: 0.2s ease-out;
+  text-align: center;
 }
 .primary-button:hover {
   background-color: var(--accent-color-dark);
@@ -203,12 +204,17 @@ header {
   flex-direction: column;
   align-items: flex-start;
 }
-
+#second-big-feature {
+  flex-direction: row-reverse;
+}
 /* example section */
-
+.examples-section {
+  padding: 80px var(--padding-inline-section);
+}
 .examples-header {
   flex-direction: column;
   gap: 20px;
+  text-align: center;
 }
 .examples-area {
   justify-content: space-between;
@@ -291,4 +297,5 @@ footer {
 .sub-footer-container {
   justify-content: center;
   gap: 30px;
+  flex-wrap: wrap;
 }
