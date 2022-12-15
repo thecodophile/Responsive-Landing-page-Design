@@ -50,3 +50,30 @@
     align-items: stretch;
   }
 }
+
+@media screen and (max-width: 479px) {
+  :root {
+    --padding-inline-section: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .features-card {
+    min-width: 100%;
+  }
+  .big-feature-container {
+    padding-inline: 20px;
+  }
+  .examples-card {
+    width: 100%;
+  }
+  .cta-section-container {
+    text-align: center;
+  }
+}
