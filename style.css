@@ -120,7 +120,9 @@ ul {
 }
 .nav-toggle {
   display: none;
+  font-size: 25px;
 }
+
 /* header section */
 
 header {
